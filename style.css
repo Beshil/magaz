@@ -1,0 +1,55 @@
+body{
+  background: #f9f9f9;
+}
+
+h1{
+  text-align: center;
+  margin-top: 100px;
+  font-size: 36px;
+}
+
+.cont{
+  display: flex;
+  justify-content: center;
+  margin-top: 180px;
+}
+.photo{
+  margin: 0px 35px 30px;
+  transition: .7s;
+}
+.photo:hover{
+  transform: scale(1.4);
+}
+
+.mater{
+  position: relative;
+}
+
+button{
+  position: absolute;
+  left: 70px;
+  border: 1px solid #23bac1 ;
+  color:#23bac1;
+  width: 200px;
+  height: 60px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+button:hover{
+  background: #23bac1;
+  color:#ffffff
+}
+
+p{
+  text-align: center;
+}
+
+span{
+  display: block;
+  position: relative;
+  left: 130px;
+  margin-bottom: 28px;
+  font-weight: bold;
+
+}
